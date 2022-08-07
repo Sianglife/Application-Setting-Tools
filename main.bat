@@ -12,3 +12,5 @@ echo FileType is %type%
 assoc %ext%=%type%
 echo Setting...
 ftype %type%=%path% "%1"
+
+echo done
